@@ -1,0 +1,28 @@
+{
+  "name": "is-os-cli",
+  "description": "CLI utility to check if operating system.",
+  "version": "0.0.0",
+  "author": "JP Richardson <jprichardson@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jprichardson/is-os-cli/issues"
+  },
+  "devDependencies": {
+    "standard": "8.x",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "preferGlobal": true,
+  "homepage": "https://github.com/jprichardson/is-os-cli",
+  "keywords": [
+    "cli",
+    "operating",
+    "os",
+    "system"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jprichardson/is-os-cli.git"
+  }
+}
