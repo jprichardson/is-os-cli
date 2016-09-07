@@ -23,7 +23,7 @@ In your npm script, some task that can only be ran on Windows:
 ```json
 {
   "scripts": {
-    "build-app": "is-os windows && build-command-here"
+    "build-app": "is-os win32 && build-command-here"
   }
 }
 ```
