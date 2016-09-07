@@ -3,6 +3,9 @@
   "description": "CLI utility to check if operating system.",
   "version": "0.0.0",
   "author": "JP Richardson <jprichardson@gmail.com>",
+  "bin": {
+    "is-os": "./cli.js"
+  },
   "bugs": {
     "url": "https://github.com/jprichardson/is-os-cli/issues"
   },
@@ -20,7 +23,7 @@
     "system"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "cli.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/jprichardson/is-os-cli.git"

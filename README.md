@@ -8,7 +8,7 @@
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]: http://npm.im/standard
 
-CLI utility to check if operating system.
+CLI utility to check if operating system. Useful for npm scripts.
 
 ## Install
 
@@ -17,6 +17,16 @@ npm install -g is-os-cli
 ```
 
 ## Usage
+
+In your npm script, some task that can only be ran on Windows:
+
+```json
+{
+  "scripts": {
+    "build-app": "is-os windows && build-command-here"
+  }
+}
+```
 
 
 
